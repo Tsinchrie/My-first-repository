@@ -1,0 +1,133 @@
+.styleul{
+    list-style-type: none;
+    background-color: blue;
+    margin: 0;
+    padding: 0;
+}
+nav li{
+    float: left;
+}
+nav li a{
+    color: blueviolet;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 15px 15px;
+    display: block;
+
+}
+nav li a hover{
+    background-color: gold;
+
+}
+.homepage{
+    background-image: url("images/gbv back.jpg");
+    height: 500px;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+
+}
+.hrstext {
+    color:whitesmoke;
+    text-align: center;
+    font-size: 28px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+
+}
+.buttonhr {
+    background-color: darkred;
+    width: 60%;
+    padding: 14px 20px;
+    border-radius: 12px;
+}
+.centre {
+    text-align: center;
+}
+nav , section{
+    margin: 3px;
+    padding: 2px;
+}
+
+.flexbox{
+    display: flex;
+}
+
+#about p {
+    border: 2px solid gold;
+    margin: 5px;
+    padding: 10px;
+}
+.flex-contain{
+    display: flex;
+}
+#About p{
+    border: 2px solid gold;
+    margin: 5px;
+    padding: 15px;
+
+}
+.flex-contain{
+    display: flex;
+}
+.flex-contain > div {
+  padding: 3px;  
+    margin-left: 5px;
+    margin-bottom: 30px;
+    
+}
+#Gallery img{
+    border-radius: 50%;
+}
+.flexbox >div{
+    margin: 3px;
+    padding: 3px;
+}
+
+.container{
+    background-color: lightgoldenrodyellow;
+    padding: 20px;
+    border-radius: 6px;
+
+
+}
+.row:after {
+    display:table;
+    content:"";
+    clear:both;
+}
+.col-20 {
+    width: 20%;
+    margin: 6px;
+    float: left;
+}
+
+.col-80{
+    width: 80%;
+    margin: 6px;
+    float: left;
+}
+input,textarea{
+    width: 100%;
+    padding: 10px;
+    border-radius: 6px;
+    border: 1px solid greenyellow;
+}
+label{
+    display: inline-block;
+    padding: 12px 12px 12px 0;
+}
+
+.btnsubmit{
+    width: 25%;
+    float: right;
+    padding: 8px;
+    background-color: darkred;
+    border: none;
+    border-radius: 5px;
+}
+.btnsubmit:hover{
+    background-color: gold;
+}

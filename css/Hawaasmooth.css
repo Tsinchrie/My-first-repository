@@ -1,0 +1,46 @@
+.styleul{
+    list-style-type: none;
+    background-color: blue;
+    margin: 0;
+    padding: 0;
+}
+nav li{
+    float: left;
+}
+nav li a{
+    color: aliceblue;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 15px 15px;
+    display: block;
+
+}
+nav li a hover{
+    background-color: gold;
+
+}
+.homepage{
+    background-image: url("images/WhatsApp Image 2022-01-17 at 11.45.19.jpeg");
+    height: 500px;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+
+}
+.Hawaasmoothtext {
+    color: black;
+    text-align: center;
+    font-size: 28px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+
+}
+.buttonhr{
+    background-color:blue;
+
+    width: 20%;
+    padding: 14px 20px;
+    border-radius: 0px;
+

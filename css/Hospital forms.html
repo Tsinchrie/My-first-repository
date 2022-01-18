@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Hospital forms</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<form action="#">
+    <div>
+        <img src="images/hlogo.png">
+    </div>
+    <div class="container">
+        <h1>HOSPITAL REGISTRATION FORM</h1>
+        <h2>Personal Details</h2>
+    <div class="hospital">
+        <label> First name</label>
+        <input type="text"name="first name" placeholder="" required><span class="random">*</span>
+    </div>
+    <div class="hospital">
+        <label>last name</label>
+        < input type="text" name="Second name" placeholder="" required><span class="random">*</span>
+
+    </div>
+    <div class="hospital"  >
+        <label> Date of admission </label>
+        <input type="date" name="DoA" required><span class="random">*</span>
+    </div>
+    <div class="hospital" >
+        <label> Date of birth</label>
+        <input type="date" name="DoB" required><span class="random">*</span>
+    </div>
+
+    <div class="radiostyle" >
+        <label> Gender:</label>
+        <input type="radio" name="gender" value="female"required>
+        <label> female </label>
+        <input type="radio" name="gender" value="male">
+        <label> male </label>
+        <input type="radio" name="gender" value="other">
+        <label>other </label>
+    </div>
+    <div class="radiostyle" >
+        <label>Marital status:</label>
+        <input type="radio" name="marital status" value="single">
+        <label>single </label>
+        <input type="radio" name=" Marital status" value="married">
+        <label>married</label>
+        <input type="radio" name="Marital status" value="divorced">
+    </div>
+    <div class="radiostyle">
+        <label>Admission Type:</label>
+        <input type="radio" name="Admission type" value="in patient">
+        <label>in patient</label>
+        <input type="radio" name="Admission type" value="out patient">
+        <label>out patient</label>
+    </div>
+    <div class="hospital" >
+        <label>Phone number</label>
+        <input type="tel" name="pumber" placeholder="" required><span class="random">*</span>
+    </div>
+    <div class="hospital">
+        <label>email adress</label>
+        <input type="email"name="eadress"placeholder="">
+    </div>
+
+        <div class="hospital">
+            <label>Region</label>
+<select name="region">
+    <option value="Nairobi">Nairobi</option>
+    <option value="Eastern">Eastern</option>
+    <option value="Rift Valley">Rift Valley</option>
+    <option value="Nyanza">Nyanza</option>
+    <option value="Mount Kenya">Mount Kenya</option>
+    <option value="Coast">Coast</option>
+</select>
+        </div>  <br>
+
+        <div>
+            <a href="hos.html"><input class="btn" type="button" value="next page"></a>
+        </div>
+
+
+
+</div>
+</form>
+</body>
+</html>
+
+
+
