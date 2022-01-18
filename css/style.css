@@ -1,0 +1,73 @@
+form{
+    margin-left: auto;
+    margin-right: auto;
+    background-color: lightblue;
+    width: 50%;
+    border:2px solid black;
+    
+
+
+
+
+}
+.hospital{
+    width: 100%;
+
+}
+.hospital label{
+    display: block;
+    text-align: left;
+    margin: 3px;
+    font-size: 20px;
+
+}
+.radiostyle{
+    font-size: 20px;
+    margin: 3px;
+
+}
+.container{
+    padding: 20px;
+
+}
+.hospital input{
+    width: 90%;
+    height: 28px;
+    border-radius: 5px;
+    border: 2px solid black;
+
+}
+.btn {
+    background-color: blue;
+    color: white;
+    width: 150px;
+    height: 35px;
+    border-radius: 5px;
+}
+#btn2 {
+    background-color:red;
+    color: white;
+    width: 150px;
+    height: 35px;
+    border-radius: 5px;
+
+
+}
+img{
+    height:200px;
+    width: 100%;
+
+}
+h1 {
+    text-align: center;
+    color: darkblue;
+    font-size: 25px;
+}
+.random{
+    color:darkred;
+
+}
+
+
+
+
