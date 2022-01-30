@@ -1,0 +1,70 @@
+form {
+   background-color: #adb5bd;
+   width: 50%;
+    margin-right: 25%;
+    margin-left: 25%;
+    border-radius: 10px;
+}
+
+form h1{
+    margin: 4px 0;
+    display: flex;
+
+}
+label{
+    margin-right: 10%;
+}
+
+
+
+input[type=text]{
+    width: 100%;
+    padding: 6px 5px;
+    margin: 4px 0px;
+    display: flex;
+    border: 2px solid black ;
+    box-sizing: border-box;
+    border-radius: 4px;
+}
+input[type=password] {
+    width: 100%;
+    padding: 6px 5px;
+    margin: 4px 0;
+    display: flex;
+    border: 2px solid black ;
+    box-sizing: border-box;
+    border-radius: 4px;
+    color: grey;
+}
+
+
+
+
+button {
+    background-color: darkblue;
+    width:10%;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    float: right;
+
+}
+
+
+button:hover {
+    color: gold;
+}
+
+
+.container {
+    padding: 16px;
+}
+.text-body{
+    float: right;
+    padding-top: 16px;
+}
+
+
+
+
+

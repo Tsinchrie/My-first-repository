@@ -1,0 +1,198 @@
+
+
+ul{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+    color:black;
+}
+
+
+body{
+  font-family: 'Google Sans', Roboto, Arial, sans-serif;
+}
+nav{
+ position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    align-items: center;
+    justify-content: space-between;
+    background-color: lightskyblue;
+    box-shadow: 0 3px 5px rgba(0,0,0,0.1);
+
+}
+nav h1{
+    color: black;
+
+ }
+ nav a{
+     color: black;
+     transition: background-color;
+ }
+ nav a:hover{
+     color: white;
+     border-bottom: black 2px;
+
+ }
+ nav ul{
+     display: flex;
+     gap: 2rem;
+ }
+ nav ul li{
+     font-weight: bold;
+ }
+.hero{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2.5rem;
+    max-width: 67.8rem;
+    margin: auto;
+}
+.hero img{
+    height: 20rem;
+    width: 20rem;
+}
+.bio{
+    width: 25rem;
+    padding: 0.625rem;
+    border-radius: 6px;
+    box-shadow: 0 2px 15px 2px var(--bs-primary);
+
+}
+.bio h1{
+    color: black;
+
+}
+.bio p{
+    line-height: revert;
+    padding: 0.3rem 0;
+
+}
+.More-about{
+    padding: 1rem 6rem;
+}
+.More-about h2{
+    margin-bottom: auto;
+    text-align: center;
+}
+.More-about P{
+    line-height: revert;
+    padding: 0.4rem;
+}
+.Skills{
+    max-width: 68.75rem;
+    text-align: center;
+    margin-top: 2.5rem;
+}
+.Skill-header{
+    margin-bottom: 1rem;
+}
+.Skills-wrapper img{
+    padding: 1.25rem;
+
+
+
+
+}
+#Education{
+    background-color:whitesmoke;
+    align-items: center;
+    display: flex;
+ padding: 70px;
+
+}
+
+
+table,th,td{
+    border: 10px ;
+width: 70%;
+    height: 70%;
+}
+table{
+    width: 70%;
+    height: 70px;
+
+
+}
+th{
+    text-align: left;
+    text-decoration: none;
+    width: 70%;
+    height: 20px;
+
+}
+.Contact{
+    margin-top: 2rem;
+}
+
+.Contact h2{
+    text-align: center;
+    margin-bottom: 1rem;
+}
+.Contact-form {
+    background-color: #bebebf;
+}
+
+.Contact-form-container{
+    border-radius: 6px;
+    width: 100%;
+    padding: 1rem;
+    box-shadow: 0 3px 10px var(--bs-secondary);
+margin: 0 auto;
+}
+
+
+
+.Contact-form-container textarea{
+  min-height: 6.25rem;
+    font-size: 14px;
+    width: 60%;
+
+}
+.Contact-form-container label{
+    line-height: 2.7em;
+    width: 20%;
+    font-weight: bold;
+    color:blue;
+
+}
+
+.Contact-form-container input{
+    width: 60%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 5px;
+    border: 2px solid black;
+    font-size: 0.875rem;
+    outline: none;
+
+}
+.submit-btn{
+    width: 40px;
+    padding: 10px;
+    margin: 10px;
+    background-color: blue;
+    border: 2px solid;
+    border-radius: 10px;
+    font-size: 1rem;
+    font-weight: bold;
+
+
+}
+
+.socials{
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    right: 5%;
+    bottom: 50%;
+
+}
+.Socials{
+    width: 5rem;
+    height: 5rem;
+}
+

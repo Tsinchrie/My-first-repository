@@ -1,28 +1,32 @@
-.styleul{
+
+
+.navigation{
     list-style-type: none;
-    background-color: blue;
-    margin: 0;
-    padding: 0;
+    margin:5px;
+    font-size: 20px;
+    padding: 5px;
+    background-color:darkblue;
+    overflow: hidden;
+    position: fixed;
 }
-nav li{
-    float: left;
+nav li hover{
+   
 }
 nav li a{
-    color: blueviolet;
+    color: white;
     text-decoration: none;
-    font-size: 20px;
     padding: 15px 15px;
     display: block;
 
 }
-nav li  hover{
-    background-color: gold;
+nav li {
+    background-color: beige;
 
 }
 .homepage{
-    background-image: url("images/gbv6.jpg");
-    height: 500px;
-    background-repeat: no-repeat;
+    background-image:url("images/portfolio backg.jpg");
+    height: 600px;
+    background-repeat:no-repeat;
     background-size: cover;
 
 
@@ -37,8 +41,8 @@ nav li  hover{
     position: absolute;
 
 }
-.buttonhr {
-    background-color: darkred;
+.buttonp {
+    background-color: goldenrod;
     width: 60%;
     padding: 14px 20px;
     border-radius: 12px;
@@ -55,31 +59,29 @@ nav , section{
     display: flex;
 }
 
-#about p {
-    border: 2px solid gold;
+#About p {
+    border: 2px solid #b02a37;
     margin: 5px;
-    padding: 10px;
+    padding: 15px;
 }
 .flex-contain{
     display: flex;
 }
-#About p{
-    border: 2px solid gold;
-    margin: 5px;
-    padding: 15px;
 
-}
+
 .flex-contain{
     display: flex;
 }
 .flex-contain > div {
-  padding: 3px;  
+    padding: 3px;
     margin-left: 5px;
     margin-bottom: 30px;
-    
+
 }
-#Gallery img{
-    border-radius: 50%;
+#Educational Background{
+    border-radius: 30%;
+
+
 }
 .flexbox >div{
     margin: 3px;
@@ -88,7 +90,7 @@ nav , section{
 
 .container{
     background-color: lightgoldenrodyellow;
-    padding: 20px;
+    padding: 40px;
     border-radius: 6px;
 
 
@@ -109,7 +111,7 @@ nav , section{
     margin: 6px;
     float: left;
 }
-input,textarea{
+input,textarea {
     width: 100%;
     padding: 10px;
     border-radius: 6px;
